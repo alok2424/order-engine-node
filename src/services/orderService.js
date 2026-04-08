@@ -1,4 +1,4 @@
-// src/services/orderService.js
+
 const { sequelize, Product, Order, OrderItem } = require("../models");
 
 exports.createOrder = async (data) => {

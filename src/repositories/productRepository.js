@@ -1,4 +1,4 @@
-// src/repositories/productRepository.js
+
 const { Product } = require("../models");
 
 exports.findByIdForUpdate = async (id, transaction) => {
